@@ -27,8 +27,8 @@ public class Main {
         System.out.println("Posicao         Time 1             Time 2");
         for(Object key: time1.getJogadores().keySet()){
             System.out.print(key);
-            System.out.printf("       " + time1.getJogadores().get(key));
-            System.out.printf("               " + time2.getJogadores().get(key));
+            System.out.printf("\t" + time1.getJogadores().get(key));
+            System.out.printf("\t\t" + time2.getJogadores().get(key));
             System.out.println();
         }
         
